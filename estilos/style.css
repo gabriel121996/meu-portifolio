@@ -237,10 +237,25 @@ footer {
 footer a {
   color: var(--texto-inverso);
   text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  color: var(--destaque-inverso);
 }
 
-
 @media screen and (min-width: 768px) {
+  .video-container {
+    max-width: 600px;
+    
+  }
+  .video-container iframe {
+    max-width: 100%;
+    
+  }
+  #video h2 {
+    text-align: center;
+  }
+
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }
